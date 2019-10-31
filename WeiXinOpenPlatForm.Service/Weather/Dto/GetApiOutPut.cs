@@ -8,7 +8,7 @@ namespace WeiXinOpenPlatForm.Service.Weather.Dto
     /// <summary>
     /// 查询天气返回参数
     /// </summary>
-    public class GetWeatherOutPut
+    public class GetApiOutPut
     {
         [JsonProperty("status")]
         public string Status { get; set; }

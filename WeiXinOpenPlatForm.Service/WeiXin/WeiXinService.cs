@@ -7,6 +7,7 @@ using System.Xml;
 using System.Xml.Linq;
 using WeiXinOpenPlatForm.Core.Security;
 using WeiXinOpenPlatForm.Service.Weather;
+using WeiXinOpenPlatForm.Service.Weather.Dto;
 using WeiXinOpenPlatForm.Service.WeiXin.Dto;
 using WeiXinOpenPlatForm.Service.WeiXin.WeiXinHandler;
 
@@ -23,10 +24,13 @@ namespace WeiXinOpenPlatForm.Service.WeiXin
             _weatherService = weatherService;
         }
         /// <summary>
-        /// 渠道服务集合
+        /// 功能服务集合
         /// </summary>
         protected static ConcurrentDictionary<string, IWeiXinHandler> Handlers = new ConcurrentDictionary<string, IWeiXinHandler>();
-
+        /// <summary>
+        /// 用户指令集合
+        /// </summary>
+        protected static ConcurrentDictionary<string, int> Orders = new ConcurrentDictionary<string, int>();
         /// <summary>
         /// 设定消息handler
         /// </summary>
@@ -46,6 +50,7 @@ namespace WeiXinOpenPlatForm.Service.WeiXin
                 return Activator.CreateInstance<DefaultWeiXinHandler>();
             });
         }
+
         /// <summary>
         /// 校验Token
         /// </summary>
@@ -81,7 +86,22 @@ namespace WeiXinOpenPlatForm.Service.WeiXin
                     string msgType = msg.MsgType.First().ToString().ToUpper() + msg.MsgType.Substring(1);
                     if (msgType == "Text")
                     {
-                        msg.ReturnContent = await _weatherService.GetWeather(new Weather.Dto.GetWeatherInput() { City = msg.Content });
+                        int order = 0;
+                        bool isOrder = false;
+                        //判断是否是回复指令
+                        if (int.TryParse(msg.Content, out order) && Enum.IsDefined(typeof(MessageOrder), order))
+                        {
+                            isOrder = true;
+                            Orders.AddOrUpdate(msg.FromUserName, order, (key, oldValue) => order);
+                        }
+                        else
+                        {
+                            if (Orders.ContainsKey(msg.FromUserName))
+                            {
+                                order = Orders[msg.FromUserName];
+                            }
+                        }
+                        msg.ReturnContent = await _weatherService.GetReturnMessage(new GetReturnMessageInput() { Order = order, Content = msg.Content, IsOrder = isOrder });
                     }
                     responseMsg = await SetHandler(msgType).HandleRequest(msg);
                 }

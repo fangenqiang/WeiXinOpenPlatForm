@@ -9,8 +9,14 @@ namespace WeiXinOpenPlatForm.Service.Weather
     /// <summary>
     /// 天气服务接口
     /// </summary>
-    public interface IWeatherService: IDenpendency
+    public interface IWeatherService : IDenpendency
     {
+        /// <summary>
+        /// 获取回复内容
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        Task<string> GetReturnMessage(GetReturnMessageInput input);
         /// <summary>
         /// 天气查询
         /// </summary>
