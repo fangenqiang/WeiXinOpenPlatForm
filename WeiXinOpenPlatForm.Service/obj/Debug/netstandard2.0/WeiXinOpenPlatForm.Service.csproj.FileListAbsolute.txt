@@ -1,0 +1,13 @@
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\bin\Debug\netstandard2.0\WeiXinOpenPlatForm.Service.deps.json
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\bin\Debug\netstandard2.0\WeiXinOpenPlatForm.Service.dll
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\bin\Debug\netstandard2.0\WeiXinOpenPlatForm.Service.pdb
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\obj\Debug\netstandard2.0\WeiXinOpenPlatForm.Service.csprojAssemblyReference.cache
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\obj\Debug\netstandard2.0\WeiXinOpenPlatForm.Service.AssemblyInfoInputs.cache
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\obj\Debug\netstandard2.0\WeiXinOpenPlatForm.Service.AssemblyInfo.cs
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\obj\Debug\netstandard2.0\WeiXinOpenPlatForm.Service.dll
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\obj\Debug\netstandard2.0\WeiXinOpenPlatForm.Service.pdb
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\bin\Debug\netstandard2.0\WeiXinOpenPlatForm.Core.dll
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\bin\Debug\netstandard2.0\WeiXinOpenPlatForm.Core.pdb
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\obj\Debug\netstandard2.0\WeiXinOpenPlatForm.Service.csproj.CopyComplete
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\bin\Debug\netstandard2.0\WeiXinOpenPlatForm.Http.dll
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Service\bin\Debug\netstandard2.0\WeiXinOpenPlatForm.Http.pdb

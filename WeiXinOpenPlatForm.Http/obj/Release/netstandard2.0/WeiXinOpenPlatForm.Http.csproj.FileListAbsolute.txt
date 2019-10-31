@@ -1,0 +1,11 @@
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Http\bin\Release\netstandard2.0\WeiXinOpenPlatForm.Http.deps.json
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Http\bin\Release\netstandard2.0\WeiXinOpenPlatForm.Http.dll
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Http\bin\Release\netstandard2.0\WeiXinOpenPlatForm.Http.pdb
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Http\bin\Release\netstandard2.0\WeiXinOpenPlatForm.Core.dll
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Http\bin\Release\netstandard2.0\WeiXinOpenPlatForm.Core.pdb
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Http\obj\Release\netstandard2.0\WeiXinOpenPlatForm.Http.csprojAssemblyReference.cache
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Http\obj\Release\netstandard2.0\WeiXinOpenPlatForm.Http.AssemblyInfoInputs.cache
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Http\obj\Release\netstandard2.0\WeiXinOpenPlatForm.Http.AssemblyInfo.cs
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Http\obj\Release\netstandard2.0\WeiXinOpenPlatForm.Http.csproj.CopyComplete
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Http\obj\Release\netstandard2.0\WeiXinOpenPlatForm.Http.dll
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Http\obj\Release\netstandard2.0\WeiXinOpenPlatForm.Http.pdb

@@ -1,0 +1,7 @@
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Core\bin\Debug\netstandard2.0\WeiXinOpenPlatForm.Core.deps.json
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Core\bin\Debug\netstandard2.0\WeiXinOpenPlatForm.Core.dll
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Core\bin\Debug\netstandard2.0\WeiXinOpenPlatForm.Core.pdb
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Core\obj\Debug\netstandard2.0\WeiXinOpenPlatForm.Core.AssemblyInfoInputs.cache
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Core\obj\Debug\netstandard2.0\WeiXinOpenPlatForm.Core.AssemblyInfo.cs
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Core\obj\Debug\netstandard2.0\WeiXinOpenPlatForm.Core.dll
+E:\Code\Weixin\WeiXinOpenPlatForm\WeiXinOpenPlatForm.Core\obj\Debug\netstandard2.0\WeiXinOpenPlatForm.Core.pdb
